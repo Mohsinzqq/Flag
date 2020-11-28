@@ -1,0 +1,145 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: rgb(4, 98, 114);
+}
+
+h1 {
+	text-align: center;
+	margin: 20px;
+	color: white;
+	cursor: pointer;
+	font-family: Segoe Script;
+}
+.b {
+	width: 570px;
+	height: 250px;
+	background-color: green;
+	margin: 0px auto;
+	position: relative;
+	cursor: pointer;
+}
+.b:hover{
+	box-shadow: 1px 0px 3px black;
+}
+
+.a {
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	background-color: red;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+    left: 0px;
+	right: 0px;
+	margin: auto;
+
+}
+.ind {
+	width: 570px;
+	height: 90px;
+	background-color: white;
+	border-top: 90px solid gold;
+	border-bottom: 90px solid green;
+	margin: 0px auto;
+	position: relative;
+	cursor: pointer;
+}
+.ind:hover{
+	box-shadow: 1px 0px 3px black;
+}
+
+.ind img {
+	width: 90px;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+    left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+ .pak {
+ 	width: 460px;
+ 	height: 259px;
+ 	background-color: green;
+ 	border-left: 115px solid white;
+ 	margin: 0px auto;
+ 	position: relative;
+ 	cursor: pointer;
+ }
+ .pak:hover{
+	box-shadow: 1px 0px 3px black;
+}
+.pak img {
+	width: 150px;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+    left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.Germany{
+	width: 570px;
+	height: 100px;
+	background-color: red;
+	margin: 20px auto;
+	border-top: 100px solid black;
+	border-bottom: 100px solid gold;
+	cursor: pointer;
+	opacity: .8;
+}
+.Germany:hover{
+	box-shadow: 1px 0px 3px black;
+}
+.kuwait{
+	width: 500px;
+	height: 80px;
+	background-color: white;
+	margin: 20px auto;
+	border-top: 80px solid green;
+	border-bottom: 80px solid red;
+	border-left: 80px solid black;
+	opacity: .8;
+	cursor: pointer;
+}
+.kuwait:hover{
+	box-shadow: 1px 0px 5px black;
+}
+
+.brazil{
+	width: 450px;
+	height: 270px;
+	background-color: #009c3b;
+	margin: 10px auto 0px;
+	position: relative;
+}
+
+.flag {
+	width: 180px;
+	height: 180px;
+	background-color: #ffdf00;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+	transform: rotate(45deg);
+}
+.brazil .flag img {
+	width: 170px;
+	height: 170px;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+	transform: rotate(-50deg);
+}
